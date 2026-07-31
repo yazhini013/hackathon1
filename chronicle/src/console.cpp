@@ -1,4 +1,4 @@
-/**
+
 #include <iostream>
 #include <string>
 
@@ -83,4 +83,3 @@ void runConsole()
     }
 }
 
-*/
