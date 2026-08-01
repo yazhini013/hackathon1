@@ -7,6 +7,7 @@
 #include "../include/world_state.hpp"
 #include "../include/world_state.hpp"
 #include "../include/command.hpp"
+#include "../include/pager.hpp"
 
 namespace
 {
