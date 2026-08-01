@@ -1,7 +1,16 @@
-void runConsole();
+#include <iostream>
 
-int main()
+void runConsole(const std::string& worldFile);
+
+int main(int argc, char* argv[])
 {
-    runConsole();
+    if (argc != 2)
+    {
+        std::cout << "Usage: ./chronicle <world_file>\n";
+        return 1;
+    }
+
+    runConsole(argv[1]);
+
     return 0;
 }

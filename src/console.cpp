@@ -50,7 +50,7 @@ AppState handleSystemCommand(const std::string& cmd)
 
 }
 
-void runConsole()
+void runConsole(const std::string& worldFile)
 {
     InputBuffer input;
     WorldState world;

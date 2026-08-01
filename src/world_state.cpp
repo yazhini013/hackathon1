@@ -18,3 +18,4 @@ const std::vector<Player>& WorldState::getPlayers() const
 {
     return players_;
 }
+
