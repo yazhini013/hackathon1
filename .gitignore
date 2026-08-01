@@ -1,0 +1,6 @@
+chronicle
+*.o
+*.out
+a.out
+build/
+.DS_Store
